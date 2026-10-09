@@ -1,31 +1,31 @@
-import logo from "../assets/logo";
+const blog = {
+  name: "My Awesome Blog",
 
-const blogData = {
-  name: "Underreacted",
-  image: logo,
-  about: "A blog about learning React",
+  image: "https://placehold.co/200x200?text=My+Blog",
+
+  about:
+    "Welcome to my blog! I share stories about my life, hobbies, and adventures.",
+
   posts: [
     {
       id: 1,
-      title: "Components 101",
-      date: "December 15, 2020",
-      preview: "Setting up the building blocks of your site",
-      minutes: 5,
+      title: "My First Blog Post",
+      date: "October 1, 2026",
+      preview: "Today I started my very own blog!"
     },
     {
       id: 2,
-      title: "React Data Flow",
-      date: "December 11, 2020",
-      preview: "Passing props is never passé",
-      minutes: 15,
+      title: "A Fun Weekend",
+      date: "October 5, 2026",
+      preview: "I had an amazing weekend with my friends."
     },
     {
       id: 3,
-      title: "Function vs Class Components",
-      preview: "React, meet OOJS.",
-      minutes: 47,
-    },
-  ],
+      title: "My Favorite Hobby",
+      date: "October 8, 2026",
+      preview: "Here is why I love drawing and being creative."
+    }
+  ]
 };
 
-export default blogData;
+export default blog;
